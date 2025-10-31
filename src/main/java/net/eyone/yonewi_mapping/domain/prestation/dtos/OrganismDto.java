@@ -1,0 +1,16 @@
+package net.eyone.yonewi_mapping.domain.prestation.dtos;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class OrganismDto {
+    private Integer identifier;
+    private String name;
+    private Boolean billingInsuranceAutoSynchronization;
+}
