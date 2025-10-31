@@ -1,0 +1,159 @@
+{
+  "messageType": "UPDATE_PRESTATION",
+  "messageKey": "ANALYSIS_ANLMED202500012_13853",
+  "organismId": "13853",
+  "organismName": "Centre de Santé Renaissance",
+  "action": "ANALYSIS",
+  "createdBy": "TEST DOCTEUR",
+  "creationDate": "28/10/2025 11:34:46",
+  "data": {
+    "identifier": 38162,
+    "eyoneInternalId": "ANLMED202500012",
+    "customId": "ANLMED202500012",
+    "createdBy": "TEST DOCTEUR",
+    "creationDate": "28/10/2025 11:34:46",
+    "organism": {
+      "identifier": 13853,
+      "name": "Centre de Santé Renaissance"
+    },
+    "relatedService": {
+      "identifier": 13853,
+      "name": "Centre de Santé Renaissance"
+    },
+    "medicalActCategory": {
+      "code": "ANALYSIS",
+      "label": "Analyse",
+      "evacuation": false,
+      "modeleItem": false,
+      "medicalExam": true,
+      "pharmacyAsPrestation": false,
+      "hospitalization": false,
+      "analysis": true,
+      "radiology": false,
+      "quote": false,
+      "all": false,
+      "editable": false,
+      "room": false,
+      "medoc": false,
+      "modele": false,
+      "visit": false,
+      "ambulatory": false,
+      "consultation": false
+    },
+    "status": {
+      "code": "VALIDATED",
+      "label": "Validé(e)",
+      "done": false,
+      "created": false,
+      "cancelled": false,
+      "toBeConfirmed": false,
+      "notAccepted": false,
+      "onGoing": false,
+      "unavailable": false,
+      "notPerformed": false
+    },
+    "patient": {
+      "identifier": 14554,
+      "eyoneInternalId": "PCSR202500004",
+      "firstName": "MAME MARAME VICTORINE",
+      "lastName": "NDIAYE",
+      "sex": {
+        "code": "female",
+        "label": "F"
+      }
+    },
+    "startDate": "28/10/2025 11:34:46",
+    "endDate": "28/10/2025 11:34:46",
+    "pharmacySellPrestation": {
+      "identifier": 37255,
+      "disable": false,
+      "nbrProducts": 0,
+      "commentary": "Pharmacie",
+      "pharmacyBillingMode": {
+        "code": "DETAIL",
+        "label": "Saisie des produits unitairement",
+        "scope": "Médicaments en particuliers",
+        "global": false,
+        "detail": true
+      },
+      "usedAsAPrestation": false,
+      "manageStock": false,
+      "documentGenerationRequired2": false
+    },
+    "toothPrestation": false,
+    "editor": {
+      "organism": {
+        "identifier": 13853,
+        "name": "Centre de Santé Renaissance"
+      },
+      "userId": 14356,
+      "userName": "docteur.test@eyone.net",
+      "completeName": "TEST DOCTEUR",
+      "userDetailsInfos": {
+        "hasSuperviseurRight": false,
+        "doctor": true
+      },
+      "identifier": 14356,
+      "doctor": true,
+      "completeNameAndUserName": "TEST DOCTEUR docteur.test@eyone.net"
+    },
+    "doctor": {
+      "identifier": 14356,
+      "doctorId": 14356,
+      "doctorUsername": "docteur.test@eyone.net",
+      "doctorCompleteName": "TEST DOCTEUR",
+      "ordonanceByDoctor": false,
+      "facturedByDoctor": false
+    },
+    "medicalRecordFile": {
+      "identifier": 37305,
+      "hta": false,
+      "smoke": false,
+      "cop": false,
+      "makeSport": false,
+      "cholesterol": false,
+      "stress": false,
+      "diabete": false,
+      "heredity": false,
+      "excessWeight": false,
+      "asthma": false,
+      "inactivity": false,
+      "saos": false,
+      "preeclampsie": false,
+      "doMapa": false,
+      "doEcg": false,
+      "doBiologie": false,
+      "doHolterEcg": false,
+      "doECHOCARDIOGRAPHIE": false,
+      "imc": 0.0,
+      "relatedMedicalSellPrestationId": 38162,
+      "hasGeneralExam": false,
+      "hasCardioVascularyExam": false,
+      "hasBreathingExam": false,
+      "hasDigestifExam": false,
+      "hasUrologyExam": false,
+      "hasGynecologyExam": false,
+      "hasSplenoGanglionaireExam": false,
+      "hasLocomoteurExam": false,
+      "hasNeurologicalExam": false,
+      "hasBuccodentaireExam": false,
+      "hasDermatoExam": false,
+      "hasPilgrimFile": false,
+      "hasGenitalExam": false,
+      "referTo": false
+    },
+    "toothIndice": 5,
+    "firstMedicalSellPrestation": false,
+    "firstConsultation": false,
+    "telePrestation": false,
+    "createByQueue": false,
+    "documentIssuerStatus": "ON_GOING"
+  },
+  "origin": "MEDICAL_SI_BOOT_PATIENT_FILE",
+  "status": "PENDING",
+  "claims": {
+    "endpoint": "/medical-workflow-status",
+    "method": "changePrestationStatus",
+    "class": "com.eyone.sipatientfile.controller.prestation.MedicalSellPrestationController"
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "38162",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2025-10-28T11:34:46+00:00",
+    "profile": [
+      "http://eyone.sn/fhir/StructureDefinition/ServiceRequest-Analysis"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Analyse médicale</b></p><p><b>Patient:</b> MAME MARAME VICTORINE NDIAYE</p><p><b>Demandé par:</b> TEST DOCTEUR</p><p><b>Centre de Santé:</b> Centre de Santé Renaissance</p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/messageType",
+      "valueString": "UPDATE_PRESTATION"
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/messageKey",
+      "valueString": "ANALYSIS_ANLMED202500012_13853"
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/action",
+      "valueString": "ANALYSIS"
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/origin",
+      "valueString": "MEDICAL_SI_BOOT_PATIENT_FILE"
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/messageStatus",
+      "valueString": "PENDING"
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/createdBy",
+      "valueString": "TEST DOCTEUR"
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/creationDate",
+      "valueDateTime": "2025-10-27T12:53:23+00:00"
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/medicalActCategory",
+      "extension": [
+        {
+          "url": "code",
+          "valueString": "ANALYSIS"
+        },
+        {
+          "url": "label",
+          "valueString": "Analyse"
+        },
+        {
+          "url": "evacuation",
+          "valueBoolean": false
+        },
+        {
+          "url": "modeleItem",
+          "valueBoolean": false
+        },
+        {
+          "url": "medicalExam",
+          "valueBoolean": true
+        },
+        {
+          "url": "pharmacyAsPrestation",
+          "valueBoolean": false
+        },
+        {
+          "url": "hospitalization",
+          "valueBoolean": false
+        },
+        {
+          "url": "analysis",
+          "valueBoolean": true
+        },
+        {
+          "url": "radiology",
+          "valueBoolean": false
+        },
+        {
+          "url": "quote",
+          "valueBoolean": false
+        },
+        {
+          "url": "all",
+          "valueBoolean": false
+        },
+        {
+          "url": "editable",
+          "valueBoolean": false
+        },
+        {
+          "url": "room",
+          "valueBoolean": false
+        },
+        {
+          "url": "medoc",
+          "valueBoolean": false
+        },
+        {
+          "url": "modele",
+          "valueBoolean": false
+        },
+        {
+          "url": "visit",
+          "valueBoolean": false
+        },
+        {
+          "url": "ambulatory",
+          "valueBoolean": false
+        },
+        {
+          "url": "consultation",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/statusDetails",
+      "extension": [
+        {
+          "url": "code",
+          "valueString": "VALIDATED"
+        },
+        {
+          "url": "label",
+          "valueString": "Validé(e)"
+        },
+        {
+          "url": "done",
+          "valueBoolean": false
+        },
+        {
+          "url": "created",
+          "valueBoolean": false
+        },
+        {
+          "url": "cancelled",
+          "valueBoolean": false
+        },
+        {
+          "url": "toBeConfirmed",
+          "valueBoolean": false
+        },
+        {
+          "url": "notAccepted",
+          "valueBoolean": false
+        },
+        {
+          "url": "onGoing",
+          "valueBoolean": false
+        },
+        {
+          "url": "unavailable",
+          "valueBoolean": false
+        },
+        {
+          "url": "notPerformed",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/pharmacySellPrestation",
+      "extension": [
+        {
+          "url": "identifier",
+          "valueInteger": 37255
+        },
+        {
+          "url": "disable",
+          "valueBoolean": false
+        },
+        {
+          "url": "nbrProducts",
+          "valueInteger": 0
+        },
+        {
+          "url": "commentary",
+          "valueString": "Pharmacie"
+        },
+        {
+          "url": "pharmacyBillingMode",
+          "extension": [
+            {
+              "url": "code",
+              "valueString": "DETAIL"
+            },
+            {
+              "url": "label",
+              "valueString": "Saisie des produits unitairement"
+            },
+            {
+              "url": "scope",
+              "valueString": "Médicaments en particuliers"
+            },
+            {
+              "url": "global",
+              "valueBoolean": false
+            },
+            {
+              "url": "detail",
+              "valueBoolean": true
+            }
+          ]
+        },
+        {
+          "url": "usedAsAPrestation",
+          "valueBoolean": false
+        },
+        {
+          "url": "manageStock",
+          "valueBoolean": false
+        },
+        {
+          "url": "documentGenerationRequired2",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/toothPrestation",
+      "valueBoolean": false
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/toothIndice",
+      "valueInteger": 5
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/editor",
+      "extension": [
+        {
+          "url": "organism",
+          "extension": [
+            {
+              "url": "identifier",
+              "valueInteger": 13853
+            },
+            {
+              "url": "name",
+              "valueString": "Centre de Santé Renaissance"
+            }
+          ]
+        },
+        {
+          "url": "userId",
+          "valueInteger": 14356
+        },
+        {
+          "url": "userName",
+          "valueString": "docteur.test@eyone.net"
+        },
+        {
+          "url": "completeName",
+          "valueString": "TEST DOCTEUR"
+        },
+        {
+          "url": "identifier",
+          "valueInteger": 14356
+        },
+        {
+          "url": "doctor",
+          "valueBoolean": true
+        },
+        {
+          "url": "completeNameAndUserName",
+          "valueString": "TEST DOCTEUR docteur.test@eyone.net"
+        },
+        {
+          "url": "userDetailsInfos",
+          "extension": [
+            {
+              "url": "hasSuperviseurRight",
+              "valueBoolean": false
+            },
+            {
+              "url": "doctor",
+              "valueBoolean": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/doctor",
+      "extension": [
+        {
+          "url": "identifier",
+          "valueInteger": 14356
+        },
+        {
+          "url": "doctorId",
+          "valueInteger": 14356
+        },
+        {
+          "url": "doctorUsername",
+          "valueString": "docteur.test@eyone.net"
+        },
+        {
+          "url": "doctorCompleteName",
+          "valueString": "TEST DOCTEUR"
+        },
+        {
+          "url": "ordonanceByDoctor",
+          "valueBoolean": false
+        },
+        {
+          "url": "facturedByDoctor",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/medicalRecordFile",
+      "extension": [
+        {
+          "url": "identifier",
+          "valueInteger": 37305
+        },
+        {
+          "url": "hta",
+          "valueBoolean": false
+        },
+        {
+          "url": "smoke",
+          "valueBoolean": false
+        },
+        {
+          "url": "cop",
+          "valueBoolean": false
+        },
+        {
+          "url": "makeSport",
+          "valueBoolean": false
+        },
+        {
+          "url": "cholesterol",
+          "valueBoolean": false
+        },
+        {
+          "url": "stress",
+          "valueBoolean": false
+        },
+        {
+          "url": "diabete",
+          "valueBoolean": false
+        },
+        {
+          "url": "heredity",
+          "valueBoolean": false
+        },
+        {
+          "url": "excessWeight",
+          "valueBoolean": false
+        },
+        {
+          "url": "asthma",
+          "valueBoolean": false
+        },
+        {
+          "url": "inactivity",
+          "valueBoolean": false
+        },
+        {
+          "url": "saos",
+          "valueBoolean": false
+        },
+        {
+          "url": "preeclampsie",
+          "valueBoolean": false
+        },
+        {
+          "url": "doMapa",
+          "valueBoolean": false
+        },
+        {
+          "url": "doEcg",
+          "valueBoolean": false
+        },
+        {
+          "url": "doBiologie",
+          "valueBoolean": false
+        },
+        {
+          "url": "doHolterEcg",
+          "valueBoolean": false
+        },
+        {
+          "url": "doECHOCARDIOGRAPHIE",
+          "valueBoolean": false
+        },
+        {
+          "url": "imc",
+          "valueDecimal": 0.0
+        },
+        {
+          "url": "relatedMedicalSellPrestationId",
+          "valueInteger": 38162
+        },
+        {
+          "url": "hasGeneralExam",
+          "valueBoolean": false
+        },
+        {
+          "url": "hasCardioVascularyExam",
+          "valueBoolean": false
+        },
+        {
+          "url": "hasBreathingExam",
+          "valueBoolean": false
+        },
+        {
+          "url": "hasDigestifExam",
+          "valueBoolean": false
+        },
+        {
+          "url": "hasUrologyExam",
+          "valueBoolean": false
+        },
+        {
+          "url": "hasGynecologyExam",
+          "valueBoolean": false
+        },
+        {
+          "url": "hasSplenoGanglionaireExam",
+          "valueBoolean": false
+        },
+        {
+          "url": "hasLocomoteurExam",
+          "valueBoolean": false
+        },
+        {
+          "url": "hasNeurologicalExam",
+          "valueBoolean": false
+        },
+        {
+          "url": "hasBuccodentaireExam",
+          "valueBoolean": false
+        },
+        {
+          "url": "hasDermatoExam",
+          "valueBoolean": false
+        },
+        {
+          "url": "hasPilgrimFile",
+          "valueBoolean": false
+        },
+        {
+          "url": "hasGenitalExam",
+          "valueBoolean": false
+        },
+        {
+          "url": "referTo",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/firstMedicalSellPrestation",
+      "valueBoolean": false
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/firstConsultation",
+      "valueBoolean": false
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/telePrestation",
+      "valueBoolean": false
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/createByQueue",
+      "valueBoolean": false
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/documentIssuerStatus",
+      "valueString": "ON_GOING"
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/relatedService",
+      "extension": [
+        {
+          "url": "identifier",
+          "valueInteger": 13853
+        },
+        {
+          "url": "name",
+          "valueString": "Centre de Santé Renaissance"
+        }
+      ]
+    },
+    {
+      "url": "http://eyone.sn/fhir/StructureDefinition/claims",
+      "extension": [
+        {
+          "url": "endpoint",
+          "valueString": "/medical-workflow-status"
+        },
+        {
+          "url": "method",
+          "valueString": "changePrestationStatus"
+        },
+        {
+          "url": "class",
+          "valueString": "com.eyone.sipatientfile.controller.prestation.MedicalSellPrestationController"
+        }
+      ]
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://eyone.sn/fhir/identifier/prestation",
+      "value": "38162"
+    },
+    {
+      "system": "http://eyone.sn/fhir/identifier/eyoneInternalId",
+      "value": "ANLMED202500012"
+    },
+    {
+      "system": "http://eyone.sn/fhir/identifier/customId",
+      "value": "ANLMED202500012"
+    },
+    {
+      "system": "http://eyone.sn/fhir/identifier/organism",
+      "value": "13853"
+    }
+  ],
+  "status": "completed",
+  "intent": "order",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://eyone.sn/fhir/CodeSystem/medical-act-category",
+          "code": "ANALYSIS",
+          "display": "Analyse"
+        }
+      ]
+    }
+  ],
+  "priority": "routine",
+  "code": {
+    "coding": [
+      {
+        "system": "http://eyone.sn/fhir/CodeSystem/medical-act",
+        "code": "ANALYSIS",
+        "display": "Analyse"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/14554",
+    "identifier": {
+      "system": "http://eyone.sn/fhir/identifier/patient",
+      "value": "PCSR202500004"
+    },
+    "display": "MAME MARAME VICTORINE NDIAYE"
+  },
+  "authoredOn": "2025-10-28T11:34:46+00:00",
+  "requester": {
+    "reference": "Practitioner/14356",
+    "identifier": {
+      "system": "http://eyone.sn/fhir/identifier/practitioner",
+      "value": "14356"
+    },
+    "display": "TEST DOCTEUR"
+  },
+  "performer": [
+    {
+      "reference": "Organization/13853",
+      "identifier": {
+        "system": "http://eyone.sn/fhir/identifier/organization",
+        "value": "13853"
+      },
+      "display": "Centre de Santé Renaissance"
+    }
+  ],
+  "locationReference": [
+    {
+      "reference": "Location/13853",
+      "identifier": {
+        "system": "http://eyone.sn/fhir/identifier/location",
+        "value": "13853"
+      },
+      "display": "Centre de Santé Renaissance"
+    }
+  ],
+  "occurrencePeriod": {
+    "start": "2025-10-28T11:34:46+00:00",
+    "end": "2025-10-28T11:34:46+00:00"
+  },
+  "note": [
+    {
+      "authorString": "TEST DOCTEUR",
+      "time": "2025-10-28T11:34:46+00:00",
+      "text": "Prestation créée par TEST DOCTEUR"
+    }
+  ]
+}

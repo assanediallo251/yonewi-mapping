@@ -1,0 +1,258 @@
+{
+  "messageType": "UPDATE_PRESCRIPTION_FINANCIERE",
+  "organismId": "13853",
+  "organismName": "Centre de Santé Renaissance",
+  "action": "CONSULTATION",
+  "data": {
+    "identifier": 51957,
+    "eyoneInternalId": "AMBUL202500023",
+    "customId": "AMBUL202500023",
+    "createdBy": "admincentre admincentre",
+    "creationDate": "28/10/2025 10:44:41",
+    "organism": {
+      "identifier": 13853,
+      "name": "Centre de Santé Renaissance",
+      "billingInsuranceAutoSynchronization": false
+    },
+    "relatedService": {
+      "identifier": 13853,
+      "name": "Centre de Santé Renaissance",
+      "billingInsuranceAutoSynchronization": false
+    },
+    "price": 1500,
+    "denomination": "CONSULTATION GENERAL",
+    "medicalActCategory": {
+      "code": "AMBULATORY",
+      "label": "Ambulatoire",
+      "evacuation": false,
+      "modeleItem": false,
+      "medicalExam": false,
+      "pharmacyAsPrestation": false,
+      "hospitalization": false,
+      "analysis": false,
+      "radiology": false,
+      "quote": false,
+      "all": false,
+      "editable": false,
+      "room": false,
+      "medoc": false,
+      "modele": false,
+      "visit": false,
+      "ambulatory": true,
+      "consultation": false
+    },
+    "status": {
+      "code": "ON_GOING",
+      "label": "En cours",
+      "done": false,
+      "created": false,
+      "cancelled": false,
+      "toBeConfirmed": false,
+      "notAccepted": false,
+      "onGoing": true,
+      "unavailable": false,
+      "waiting": false,
+      "notPerformed": false
+    },
+    "prestationPaymentStatus": {
+      "code": "NOT_PAYED",
+      "label": "Non Payé(e)",
+      "totallyPayed": false,
+      "paying": false,
+      "notPayed": true,
+      "payedWithReject": false
+    },
+    "programmationType": {
+      "code": "NOT_SCHEDULED",
+      "label": "Sans Rendez-vous",
+      "notScheduled": true,
+      "emergency": false,
+      "scheduled": false
+    },
+    "patient": {
+      "identifier": 18751,
+      "eyoneInternalId": "PCSR202500041",
+      "firstName": "Rosalie",
+      "lastName": "FAYE",
+      "sex": {
+        "code": "female",
+        "label": "F"
+      }
+    },
+    "startDate": "28/10/2025 10:44:00",
+    "endDate": "28/10/2025 10:44:00",
+    "patientBilling": {
+      "identifier": 51857,
+      "creationDate": "28/10/2025 10:44:41",
+      "payedAmountTTC": 0,
+      "notPayedAmountTTC": 1500.0,
+      "careTotalAmount": 900.0,
+      "careTotalPayedAmount": 0,
+      "careTotalRejectAmount": 0,
+      "patientTotalAmount": 600.0,
+      "patientTotalPayedAmount": 0,
+      "complementaryCareTotalAmount": 0,
+      "complementaryCareTotalPayedAmount": 0,
+      "complementaryCareTotalRejectAmount": 0,
+      "complementaryPatientTotalAmount": 0,
+      "complementaryPatientTotalPayedAmount": 0,
+      "nbrRejects": 0,
+      "cautionTotalAmount": 0,
+      "cautionOnGoingAmount": 0,
+      "nbrPatientSchedules": 1,
+      "nbrCareSchedules": 1,
+      "returnToPatientAmount": 0
+    },
+    "prestationBill": {
+      "identifier": 53870,
+      "eyoneExternalId": "MS-FCT-3af0ca8a-06dd-43d0-a0ee-1c9ebdd1d056-20251028104502819",
+      "disable": false,
+      "name": "AMBUL202500023.pdf",
+      "itemSize": 0,
+      "nbrItems": 0,
+      "extension": "pdf",
+      "editable": false,
+      "path": "/home/ec2-user/drive/medical_drive/organism_13853/organism_13853/DRIVE_GENERATED/DRIVE_AMBULATORY/ambulatory_51957/AMBUL202500023.pdf",
+      "sentToMedicalPassport": false,
+      "sentToInsurer": false,
+      "medicalDocumentType": {
+        "code": "BILL",
+        "label": "Facture",
+        "medical": false,
+        "financial": true,
+        "bill": true,
+        "prescription": false,
+        "actPrescription": false,
+        "medicalQuote": false,
+        "examResult": false,
+        "otherMedicalDocument": false,
+        "scannedDocument": false
+      },
+      "documentType": {
+        "code": "BILL",
+        "label": "Facture",
+        "medical": false,
+        "financial": true,
+        "bill": true,
+        "prescription": false,
+        "actPrescription": false,
+        "medicalQuote": false,
+        "examResult": false,
+        "otherMedicalDocument": false,
+        "scannedDocument": false
+      }
+    },
+    "documents": [
+      {
+        "url": "https://api-document.tegalhub.com/simedical-passeport/AMBUL202500023.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=lS9W0KSXkbSrfF0lXkTw%2F20251028%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251028T104505Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=493c03a6b95faf36cc08515654040aa7e2b36d7da68b32987a6cb21cec9de4c6",
+        "originalUrl": "https://api-document.tegalhub.com/simedical-passeport/AMBUL202500023.pdf",
+        "bucketName": "simedical-passeport",
+        "sizeBytes": 14143,
+        "fileType": "application/pdf",
+        "fileName": "AMBUL202500023.pdf",
+        "documentType": "Facture",
+        "documentTypeCode": "BILL",
+        "fileId": 53870,
+        "entityId": 51957,
+        "eyoneExternalId": "MS-FCT-3af0ca8a-06dd-43d0-a0ee-1c9ebdd1d056-20251028104502819"
+      }
+    ],
+    "pharmacySellPrestation": {
+      "identifier": 51907,
+      "disable": false,
+      "totalPrice": 0,
+      "nbrProducts": 0,
+      "commentary": "Pharmacie",
+      "pharmacyBillingMode": {
+        "code": "DETAIL",
+        "label": "Saisie des produits unitairement",
+        "scope": "Médicaments en particuliers",
+        "global": false,
+        "detail": true
+      },
+      "care": {
+        "identifier": 20031,
+        "disable": false,
+        "startDate": "Wed Jan 01 00:00:00 UTC 2025",
+        "endDate": "Wed Dec 31 00:00:00 UTC 2025",
+        "carePeriodAsStr": "01/01/2025-31/12/2025",
+        "insurer": {
+          "identifier": 13651,
+          "disable": false,
+          "name": "EYASSUR-IPM",
+          "insurerId": 13651,
+          "activateTeletransmission": false
+        },
+        "carePercentage": 60,
+        "careLimit": 15000,
+        "hasAParticipant": false,
+        "oneTimeUsage": false
+      },
+      "usedAsAPrestation": false,
+      "useComplementaryCare": false,
+      "manageStock": false,
+      "documentGenerationRequired2": false
+    },
+    "care": {
+      "identifier": 20031,
+      "eyoneExternalId": "ISPEC-d3315395-c429-42b9-b4d0-e529b804c1aa-20250909132325895",
+      "disable": false,
+      "startDate": "01/01/2025",
+      "endDate": "31/12/2025",
+      "carePeriodAsStr": "01/01/2025-31/12/2025",
+      "insurer": {
+        "identifier": 13651,
+        "disable": false,
+        "name": "EYASSUR-IPM",
+        "insurerId": 13651,
+        "activateTeletransmission": false
+      },
+      "insurerNumber": "LRX-43415P",
+      "carePercentage": 60,
+      "careLimit": 15000,
+      "hasAParticipant": false,
+      "oneTimeUsage": false,
+      "beneficiaryEyoneExternalId": "ISINS-725964d3-cf9c-4055-a611-01b56824fca8-20250909125510191",
+      "policeExternalId": "ISFAM-644671a4-7f09-4f25-a93a-ebc2a5b97cf8-20250909132322777"
+    },
+    "toothPrestation": false,
+    "indicateThatPatientHasCare": false,
+    "hasRelatedMedicalQuote": false,
+    "queueOrderNumber": 0,
+    "totalReductions": 0,
+    "linkRelatedMedicalPartDate": "",
+    "nbDay": 0,
+    "patientSelf": false,
+    "totalPharmaciePrice": 0,
+    "totalMedicalActPrice": 1500,
+    "totalPharmacyPriceWithoutAct": 0,
+    "totalRadiologiePrice": 0,
+    "totalAnalysisPrice": 0,
+    "totalPrice": 1500,
+    "itemsTotalPrice": 1500,
+    "documentGenerationRequired": false,
+    "documentGenerationRequired2": true,
+    "selectedPayPatientQuotePart": false,
+    "editor": {
+      "organism": {
+        "identifier": 13853,
+        "name": "Centre de Santé Renaissance",
+        "eyoneExternalId": "MS-ENT-ee26a6db-6098-40ad-9d99-bd743c344247-20250821155908751"
+      },
+      "userId": 14353,
+      "userName": "admin.centre@eyone.net",
+      "completeName": "admincentre admincentre",
+      "userDetailsInfos": {
+        "hasSuperviseurRight": false,
+        "doctor": false
+      },
+      "identifier": 14353,
+      "completeNameAndUserName": "admincentre admincentre admin.centre@eyone.net"
+    }
+  },
+  "origin": "MEDICAL_SI_BOOT_BILLING",
+  "claims": {
+    "method": "generateSettlementBillFile",
+    "class": "com.eyone.medicalbilling.controller.prestation.MedicalSellPrestationController"
+  }
+}
