@@ -4,7 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import net.eyone.yonewi_mapping.model.input.Ambulatory;
 import net.eyone.yonewi_mapping.model.output.EncounterR4;
 import net.eyone.yonewi_mapping.model.output.EncounterR5;
-import net.eyone.yonewi_mapping.service.AmbulatoryEncounterMapper;
+import net.eyone.yonewi_mapping.service.AmbulatoryEncounterService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/encounter")
 @Slf4j
-public class EncounterMappingController {
+public class EncounterController {
 
     @PostMapping(path = "/r4", consumes = "application/json", produces = "application/json")
     public ResponseEntity<?> mapAmbulatoryToEncounterR4(@RequestBody Ambulatory ambulatory) {
@@ -26,7 +26,7 @@ public class EncounterMappingController {
                 log.info("[EncounterMappingController] [mapAmbulatoryToEncounterR4] validationError : {} , valeur", msg);
                 return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(msg);
             }
-            EncounterR4 outRes = AmbulatoryEncounterMapper.toR4(ambulatory);
+            EncounterR4 outRes = AmbulatoryEncounterService.toR4(ambulatory);
             log.info("[EncounterMappingController] [mapAmbulatoryToEncounterR4] mappingResult : {} , valeur", safeToString(outRes));
             log.info("[EncounterMappingController] [mapAmbulatoryToEncounterR4] response : {} , valeur", safeToString(outRes));
             return ResponseEntity.ok(outRes);
@@ -45,7 +45,7 @@ public class EncounterMappingController {
                 log.info("[EncounterMappingController] [mapAmbulatoryToEncounterR5] validationError : {} , valeur", msg);
                 return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(msg);
             }
-            EncounterR5 outRes = AmbulatoryEncounterMapper.toR5(ambulatory);
+            EncounterR5 outRes = AmbulatoryEncounterService.toR5(ambulatory);
             log.info("[EncounterMappingController] [mapAmbulatoryToEncounterR5] mappingResult : {} , valeur", safeToString(outRes));
             log.info("[EncounterMappingController] [mapAmbulatoryToEncounterR5] response : {} , valeur", safeToString(outRes));
             return ResponseEntity.ok(outRes);
